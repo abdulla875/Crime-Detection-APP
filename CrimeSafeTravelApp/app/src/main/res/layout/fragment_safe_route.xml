@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<fragment-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:id="@+id/map"-->
+<!--    android:name="com.google.android.gms.maps.SupportMapFragment"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".crimemap.SafeRouteFragment" />-->
+
+<androidx.constraintlayout.widget.ConstraintLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".crimemap.SafeRouteFragment">
+
+<fragment
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="0dp" />
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+    android:layout_marginTop="10dp"
+    android:elevation="10dp"
+    android:background="@color/DarkBeige"
+    android:id="@+id/relSourceLayout"
+    tools:ignore="MissingConstraints">
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:textSize="15sp"
+    android:layout_marginStart="10dp"
+    android:textColor="@color/black"
+    android:id="@+id/sourceEdit"
+    android:background="@color/white"
+    android:paddingLeft="20dp"
+    android:hint="Source">
+</EditText>
+
+    <EditText
+        android:id="@+id/destinationEdit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/sourceEdit"
+        android:background="@color/white"
+        android:hint="Destination"
+        android:paddingLeft="20dp"
+        android:textColor="@color/black"
+        android:textSize="15sp">
+    </EditText>
+
+    <Button
+        android:id="@+id/directionsBtn"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/destinationEdit"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="114dp"
+        android:backgroundTint="@color/LightYellow"
+        android:text="Get Directions"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+</RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

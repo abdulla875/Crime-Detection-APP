@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "262012232429",
+    "project_id": "fypcrimeapp-e08aa",
+    "storage_bucket": "fypcrimeapp-e08aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:262012232429:android:81427a64894969ac4962e4",
+        "android_client_info": {
+          "package_name": "com.ah.fyp.crimesafetravelapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "262012232429-ajnnmmfkv1gim8abia8nh73odlualkdo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8QX3fPr7PdZyBdBh70b31HDAD_1ym4XA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "262012232429-ajnnmmfkv1gim8abia8nh73odlualkdo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
